@@ -1,0 +1,15 @@
+@font-face {
+    font-family: font1;
+    src: url(../assets/fonts/Dongle-Light.ttf);
+}
+@font-face {
+    font-family: font2;
+    src: url(../assets/fonts/Dongle-Regular.ttf);
+}
+$fontT:font2;
+$font1:font1;
+
+body{
+    background: #1d1e4d;
+    color: white;
+}
