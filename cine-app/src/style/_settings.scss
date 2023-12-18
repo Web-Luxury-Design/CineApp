@@ -35,6 +35,6 @@ button{
     transition: 0.25s ease-out;
 
     &:hover{
-        transform: translateX(10px);
+        transform: scale(1.1);
     }
 }

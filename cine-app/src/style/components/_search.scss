@@ -27,6 +27,40 @@
                 outline: none;
                 border-radius: 0 0 10px 10px;
                 color: white;
+                cursor: pointer;
+
+                &:hover{
+                    filter: brightness(0.9);
+                }
+            }
+        }
+        .rank{
+            display: flex;
+            margin-top: 10px;
+            width: 100%;
+            button{
+                width: 50%;
+                border: none;
+                padding: 5px 0;
+
+                &:nth-child(1){
+                    border-radius: 5px 0 0 5px;
+                    transition: 0.25s ease-in;
+
+                    &:hover{
+                        transform: translateY(-1px);
+                        filter: brightness(0.9);
+                    }
+                }
+                &:nth-child(2){
+                    border-radius:  0  5px 5px 0;
+                    transition: 0.25s ease-in;
+
+                    &:hover{
+                        transform: translateY(1px);
+                        filter: brightness(0.9);
+                    }
+                }
             }
         }
     }
