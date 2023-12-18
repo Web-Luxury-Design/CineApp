@@ -1,6 +1,32 @@
 .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    .link{
+        display: flex;
+        gap: 25px;
+        margin-left: 20px;
+
+        a{
+            border: none;
+            color: white;
+            font-family: $font1;
+            font-size: 1.8rem;
+            padding: 0px 20px;
+            border-radius: 20px;
+            transition: 0.25s ease-out;
+
+            &:hover{
+                transform: translateX(5px) scale(1.02);
+            }
+        }
+    }
     h1{
         font-family: $fontT;
         font-size: 3.5rem;
+        transform: translateX(50%);
+        text-shadow: 0 5px 2px #4e4f9e;
+        letter-spacing: 1.5px;
     }
 }

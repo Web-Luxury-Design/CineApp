@@ -9,7 +9,32 @@
 $fontT:font2;
 $font1:font1;
 
+$color1 : rgb(117, 117, 230);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
 body{
     background: #1d1e4d;
     color: white;
+}
+.onPage-link{
+    background: rgb(80, 80, 163);
+}
+button{
+    background: $color1;
+    padding: 0px 20px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    transition: 0.25s ease-out;
+
+    &:hover{
+        transform: translateX(10px);
+    }
 }

@@ -4,14 +4,20 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
   return (
     <div className="header">
-      <div className="button">
-        <NavLink to="/">
-          <button>Accueil</button>
+      <ul className="link">
+        <NavLink
+          to="/"
+          className={(nav) => (nav.isActive ? "onPage-link" : "")}
+        >
+          <li>Accueil</li>
         </NavLink>
-        <NavLink to="/coup-de-coeur">
-          <button>coup de coeur</button>
+        <NavLink
+          to="/coup-de-coeur"
+          className={(nav) => (nav.isActive ? "onPage-link" : "")}
+        >
+          <li>coup de coeur</li>
         </NavLink>
-      </div>
+      </ul>
       <div className="title">
         <h1>React Movies</h1>
       </div>

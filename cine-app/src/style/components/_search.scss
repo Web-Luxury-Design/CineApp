@@ -1,0 +1,33 @@
+.search{
+    width: 100%;
+
+    .search-container{
+        width: 16%;
+        margin: 20px auto 0;
+        .input-search{
+            display: flex;
+            flex-direction: column;
+
+            input[type="text"]{
+                border: none;
+                padding: 0px 5px;
+                font-size: 2rem;
+                font-family: $font1;
+                text-align: center;
+                outline: none;
+                border-radius: 10px 10px 0 0;
+            }
+            input[type="submit"]{
+                background: $color1;
+                border: none;
+                padding: 0px 5px;
+                font-size: 2rem;
+                font-family: $font1;
+                text-align: center;
+                outline: none;
+                border-radius: 0 0 10px 10px;
+                color: white;
+            }
+        }
+    }
+}
