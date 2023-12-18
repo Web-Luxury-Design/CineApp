@@ -64,4 +64,14 @@
             }
         }
     }
+    .cards-container{
+        width: 100%;
+        margin-top: 50px;
+        ul{
+            padding: 0 30px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+    }
 }

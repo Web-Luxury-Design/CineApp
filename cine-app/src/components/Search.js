@@ -33,9 +33,7 @@ const Search = () => {
       <div className="cards-container">
         <ul>
           {filmData.map((film) => (
-            <li>
-              <Card key={film.id} film={film} />
-            </li>
+            <Card key={film.id} film={film} />
           ))}
         </ul>
       </div>
